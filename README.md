@@ -37,19 +37,19 @@ Siga as instruções abaixo para configurar e executar o projeto em seu ambiente
 1. Clone este repositório para o seu computador:
 
    ```bash
-   git clone https://github.com/LucasBorgesDeCarvalho/atividade-modulo2-projeto-final-santander-coders.git
+   git clone https://github.com/pdrLCarvalho/To-Do-List
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd atividade-modulo2-projeto-final-santander-coders
+   cd Modulo 2
    ```
 
 3. Instale as dependências necessárias:
 
    ```bash
-   npm install readline-sync
+   npm install i readline-sync
    ```
 
 ## ▶️ Como Executar
@@ -57,7 +57,7 @@ Siga as instruções abaixo para configurar e executar o projeto em seu ambiente
 Para iniciar o programa, execute o seguinte comando:
 
 ```bash
-node projeto_final.js
+node ToDo_list.js
 ```
 
 Após executar, um menu interativo será exibido no console, permitindo que você gerencie suas tarefas.
@@ -83,3 +83,14 @@ Após executar, um menu interativo será exibido no console, permitindo que voc�
 - **`listarTarefas()`**: Lista todas as tarefas salvas no sistema, exibindo seus detalhes.
 - **`obterTarefaPorId()`**: Busca uma tarefa específica através do seu ID e exibe suas informações.
 - **`executarTodo()`**: Função principal que controla o loop de execução do programa e gerencia as interações do usuário.
+
+## 👥 Integrantes do Grupo
+
+- **Gabryel Costa** - gabryelcosta
+- **Lucas Borges** - LucasBorgesDeCarvalho
+- **Pedro Carvalho** - pdrLCarvalho
+- **Wagner Leme** - WagnerRamalho
+
+## 🏡 Contribuições
+
+Esse é um projeto educacional, mas se você quiser contribuir, sinta-se à vontade para abrir uma [issue](https://github.com/zarkio42/Santander-Coders-Front-End/issues) ou enviar um pull request.

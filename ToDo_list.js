@@ -39,7 +39,7 @@ function adicionarTarefa() {
         throw new Error("O titulo ou descrição não pode ser vazio")
     }
     console.log('Sua tarefa foi adicionada.')
-    todoList.set(idCounter, { ID: idCounter, Titulo: tituloTarefa, Descricao: descricaoTarefa, Data: dataEntrega, Status: status == false ? "Em andamento" : "Finalizado6" })
+    todoList.set(idCounter, { ID: idCounter, Titulo: tituloTarefa, Descricao: descricaoTarefa, Data: dataEntrega, Status: status == false ? "Em andamento" : "Finalizado" })
     console.log(todoList.get(idCounter))
     idCounter++
     } catch (error) {
